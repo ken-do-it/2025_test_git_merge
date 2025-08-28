@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('test_git.url')),
+    path('base', include('test_git.url')),      #lyj 브랜치로 바꿈
 ]
